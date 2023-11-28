@@ -12,7 +12,7 @@ namespace vr_challenge
         // setup
         private const string dbName = "shipment.db";
         private const string dataFileName = "data.txt";
-        private const int maxBoxBatchSize = 2;
+        private const int maxBoxBatchSize = 500;
 
         static void Main(string[] args)
         {

@@ -53,6 +53,6 @@ TODOS:
 Due to lack of time I skipped multiple important steps that at least should be considered for "production" ready application, such as:
 1. Arguments handling, for providing path to folder to watch, database connection string, duplicates and error handling options and so on.
 2. Gracefull shutdown, to not allow closing application while processing.
-3. Duplicated handling? (For example union box contents for boxes with same boxId)
-5. Bulk sql data insertion (I was unable to solve EFCore extensions error during builk insert)
+3. Duplicate handling? (For example union box contents for boxes with same boxId)
+5. Bulk sql data insertion (I was unable to solve EFCore extensions error during builk insert for now)
 6. Active monitoring of available RAM to ensure best possible performance on used system?
